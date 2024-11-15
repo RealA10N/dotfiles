@@ -8,4 +8,4 @@ zshrc:
 # and overwrite it with our custom folder, including a custom ZSH theme. 
 omz:
 	rm -rf $ZSH/custom
-	ln -s $PWD/.oh-my-zsh/custom $ZSH
+	cp -r $PWD/.oh-my-zsh/custom $ZSH
