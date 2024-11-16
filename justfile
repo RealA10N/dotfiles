@@ -9,3 +9,8 @@ zshrc:
 omz:
 	rm -rf $ZSH/custom
 	cp -r $PWD/.oh-my-zsh/custom $ZSH
+
+# add a global gitignore
+gitignore:
+	ln -s $PWD/.gitignore ~/.gitignore
+	git config --global core.excludesFile '~/.gitignore'
