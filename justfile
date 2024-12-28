@@ -1,4 +1,4 @@
-setup: zshrc omz
+setup: zshrc omz gitignore ghostty
 
 # setup a symlink from repo's zshrc to ~/.zshrc
 zshrc:
@@ -14,3 +14,6 @@ omz:
 gitignore:
 	ln -s $PWD/.gitignore ~/.gitignore
 	git config --global core.excludesFile '~/.gitignore'
+
+ghostty:
+	ln -s $PWD/.config/ghostty ~/.config/ghostty
