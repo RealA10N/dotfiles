@@ -92,7 +92,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # Python aliases
-alias py="python3.12"
+alias py="python3.13"
 alias act="source venv/bin/activate"
 alias deact="deactivate"
 
